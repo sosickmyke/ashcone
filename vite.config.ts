@@ -6,7 +6,7 @@ import { inspectAttr } from 'kimi-plugin-inspect-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/ashcone',
+  base: '/ashcone/',
   plugins: [inspectAttr(), react()],
   resolve: {
     alias: {
